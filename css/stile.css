@@ -18,13 +18,15 @@ html,body{
 		top:50%;
 		margin-top:-325px;
 		left:15px;
-		z-index:80;}
+		z-index:80;
+		}
 
 		h1{
 			margin:0;
-			padding:0;}
+			padding:0;
+			}
 
-		#logo{
+		#logo {
 			display:block;
 			float:left;
 			font-family: 'Abril Fatface', cursive;
@@ -34,7 +36,8 @@ html,body{
 			text-decoration:none;
 			padding:10px;
 			line-height: 24px;
-			border-bottom: 2px solid #e2e2e0; }
+			border-bottom: 2px solid #e2e2e0;
+			}
 
 		.menu {
 			float:left;
@@ -43,7 +46,8 @@ html,body{
 			width:100%;
 			margin-top: -5px;
 			font-family: "Space Mono";
-			background-color: transparent}
+			background-color: transparent
+			}
 
 		.menu li a{
 			color: #ccc;
@@ -145,6 +149,8 @@ html,body{
 	.cont-page{
 			padding:20px;}
 
+			/*pagina f*/
+
 			.titlef{
  			font-family: 'Abril Fatface';
  			font-weight:normal;
@@ -152,42 +158,8 @@ html,body{
  			/*padding-top: 140px*/;
  			color: #666;
  			float:left;
- 			padding-bottom: 27%;}
-
-			.titleaw{
- 			font-family: 'Abril Fatface';
- 			font-weight:normal;
- 			font-size: 80px;
- 			color: #666;
- 			padding-bottom: 43%;
-			padding-left: 37px;}
-
-			.titlem{
- 			font-family: 'Abril Fatface';
- 			font-weight:normal;
- 			font-size: 80px;
- 			/*padding-top: 140px*/;
- 			color: #666;
- 			float:left;
- 			padding-bottom: 27%;}
-
-			.titlep{
- 			font-family: 'Abril Fatface';
- 			font-weight:normal;
- 			font-size: 80px;
- 			/*padding-top: 140px*/;
- 			color: #666;
- 			float:left;
- 			padding-bottom: 27%;}
-
-			.titlec{
-			 font-family: 'Abril Fatface';
-			 font-weight:normal;
-			 font-size: 80px;
-			 /* padding-top: 140px; */
-			 color: #666;
-			 float:left;
-			 padding-bottom: 27%;}
+ 			padding-bottom: 27%;
+			}
 
 
 		.textf {
@@ -197,54 +169,42 @@ html,body{
 			padding-bottom: 25%;
 			float: left;
 			color: #dddddd;
-		}
-
-		.textaw {
-			font-family: 'Roboto';
-			font-weight: lighter;
-			font-size: 14px;
-			padding-bottom: 25%;
-			float: right;
-			color: #dddddd;
-		}
-
-		.textm {
-			font-family: 'Roboto';
-			font-weight: lighter;
-			font-size: 14px;
-			padding-bottom: 25%;
-			float: left;
-			color: #dddddd;
-		}
-
-		.textp {
-			font-family: 'Roboto';
-			font-weight: lighter;
-			font-size: 14px;
-			padding-bottom: 25%;
-			float: left;
-			color: #dddddd;
-		}
-
-		.textc {
-			font-family: 'Roboto';
-			font-weight: lighter;
-			font-size: 14px;
-			padding-bottom: 25%;
-			float: left;
-			color: #dddddd;
-		}
-
+			}
 
 		.pirla{
 			float:right;
 			margin-right:40px;
 			height:570px;
-			margin-top: 20px;}
+			margin-top: 20px;
+			}
+
+			/*pagina aw*/
+
+			.titleaw{
+ 			font-family: 'Abril Fatface';
+			height: 50px;
+ 			font-weight:normal;
+ 			font-size: 80px;
+ 			color: #666;
+			top: 15px;
+			margin-left: 32px;
+			margin-bottom: 20px;
+			}
+
+		.textaw {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			margin-bottom: 40%;
+			margin-left: 32px;
+			float: right;
+			color: #dddddd;
+			z-index: -1;
+			}
 
 		.aw1{
 			float: left;
-			margin-right:20px;
+			padding-left: 15px;
 			height:350px;
 			padding-top: 200px;}
 
@@ -253,3 +213,66 @@ html,body{
 			margin-right:20px;
 			height:350px;
 			padding-top: 200px;}
+
+			/* pagina m*/
+
+			.titlem{
+				height: 50px;
+	 			font-family: 'Abril Fatface';
+	 			font-weight:normal;
+	 			font-size: 80px;
+	 			/*padding-top: 140px*/;
+	 			color: #666;
+	 			float:left;
+	 			padding-bottom: 27%;}
+
+			.textm {
+				font-family: 'Roboto';
+				font-weight: lighter;
+				font-size: 14px;
+				padding-bottom: 25%;
+				float: left;
+				color: #dddddd;
+			}
+
+		/*pagina p*/
+
+			.titlep{
+				height: 50px;
+	 			font-family: 'Abril Fatface';
+	 			font-weight:normal;
+	 			font-size: 80px;
+	 			/*padding-top: 140px*/;
+	 			color: #666;
+	 			float:left;
+	 			padding-bottom: 27%;}
+
+			.textp {
+				font-family: 'Roboto';
+				font-weight: lighter;
+				font-size: 14px;
+				padding-bottom: 25%;
+				float: left;
+				color: #dddddd;
+			}
+
+		/*pagina c*/
+
+			.titlec{
+				height: 50px;
+				font-family: 'Abril Fatface';
+				font-weight:normal;
+				font-size: 80px;
+				/* padding-top: 140px; */
+				color: #666;
+				float:left;
+				padding-bottom: 27%;}
+
+			.textc {
+				font-family: 'Roboto';
+				font-weight: lighter;
+				font-size: 14px;
+				padding-bottom: 25%;
+				float: left;
+				color: #dddddd;
+			}
