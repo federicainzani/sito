@@ -1,0 +1,254 @@
+html,body{
+	height:100%;}
+
+/*	body{
+		margin:0;
+		padding:0;
+		background: #ffffff;
+		color: #666;
+		font: 16px/28px;
+		font-family: 'Roboto', cursive;
+		line-height:22px;}  */
+
+	#header{
+		width:550;
+		background-color: transparent;
+		float:left;
+		position:fixed;
+		top:50%;
+		margin-top:-325px;
+		left:15px;
+		z-index:80;}
+
+		h1{
+			margin:0;
+			padding:0;}
+
+		#logo{
+			display:block;
+			float:left;
+			font-family: 'Abril Fatface', cursive;
+			font-weight:normal;
+			font-size: 36px;
+			color: #ccc;
+			text-decoration:none;
+			padding:10px;
+			line-height: 24px;
+			border-bottom: 2px solid #e2e2e0; }
+
+		.menu {
+			float:left;
+			list-style-type:none; /*specifica che non ci devono essere punti o linee*/
+			padding:0;
+			width:100%;
+			margin-top: -5px;
+			font-family: "Space Mono";
+			background-color: transparent}
+
+		.menu li a{
+			color: #ccc;
+			display: block;
+			font: 12px;
+			font-family: 'Space Mono';
+			text-transform:none;
+			text-decoration:none;
+			padding: 10px;
+			background-color: transparent;}
+
+		.menu a:hover{
+			font-weight: bolder;}
+
+		.menu a:active{
+			color: #fff;
+		}
+
+		a {
+			text-decoration: none;
+			color: #666;
+			}
+
+		.selected{
+			font-weight: bold;
+		/*	background: #dddddd;*/
+			color:#dddddd!important;}
+
+		.vocemenu {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		a:visited {
+	  	color: #666;
+		}
+
+
+		.avanti {
+			font-family: 'Roboto';
+			font-size: 60px;
+			top: 85%;
+			margin-left: 1020px;
+			color: #ddd;
+			}
+
+		.avanti a {
+			text-decoration: none;
+			color: #ddd;
+			}
+
+		.avanti a:visited {
+			color: #ddd;
+			}
+
+	#container{
+		padding:30px 0px 0px 0px;}
+
+		.slider{
+			position:absolute;
+			top:50%;
+			margin-top:-315px;
+			width:100%;
+			height:630px;
+			overflow:auto;
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			box-sizing:border-box;}
+
+		.slider.toggle_width{
+			width:50%;}
+
+		.slider .my_container{
+			overflow:hidden;}
+
+		.slider .my_container .line-element{
+			float:left;
+			z-index:10;
+			height:600px;
+			width:1050px;
+			display:block;
+			position:relative;
+			background:#fff;
+			margin-left:190px;}
+
+		.slider .my_container span{
+			position:absolute;
+			bottom:0;
+			left:0; }
+
+		.slider .my_container img:first-child{
+			margin-left:0;}
+
+		.slider .my_container img:last-child{
+			margin-right:0;}
+
+
+	.cont-page{
+			padding:20px;}
+
+			.titlef{
+ 			font-family: 'Abril Fatface';
+ 			font-weight:normal;
+ 			font-size: 80px;
+ 			/*padding-top: 140px*/;
+ 			color: #666;
+ 			float:left;
+ 			padding-bottom: 27%;}
+
+			.titleaw{
+ 			font-family: 'Abril Fatface';
+ 			font-weight:normal;
+ 			font-size: 80px;
+ 			color: #666;
+ 			padding-bottom: 43%;
+			padding-left: 37px;}
+
+			.titlem{
+ 			font-family: 'Abril Fatface';
+ 			font-weight:normal;
+ 			font-size: 80px;
+ 			/*padding-top: 140px*/;
+ 			color: #666;
+ 			float:left;
+ 			padding-bottom: 27%;}
+
+			.titlep{
+ 			font-family: 'Abril Fatface';
+ 			font-weight:normal;
+ 			font-size: 80px;
+ 			/*padding-top: 140px*/;
+ 			color: #666;
+ 			float:left;
+ 			padding-bottom: 27%;}
+
+			.titlec{
+			 font-family: 'Abril Fatface';
+			 font-weight:normal;
+			 font-size: 80px;
+			 /* padding-top: 140px; */
+			 color: #666;
+			 float:left;
+			 padding-bottom: 27%;}
+
+
+		.textf {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 25%;
+			float: left;
+			color: #dddddd;
+		}
+
+		.textaw {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 25%;
+			float: right;
+			color: #dddddd;
+		}
+
+		.textm {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 25%;
+			float: left;
+			color: #dddddd;
+		}
+
+		.textp {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 25%;
+			float: left;
+			color: #dddddd;
+		}
+
+		.textc {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 25%;
+			float: left;
+			color: #dddddd;
+		}
+
+
+		.pirla{
+			float:right;
+			margin-right:40px;
+			height:570px;
+			margin-top: 20px;}
+
+		.aw1{
+			float: left;
+			margin-right:20px;
+			height:350px;
+			padding-top: 200px;}
+
+		.aw2{
+			float:right;
+			margin-right:20px;
+			height:350px;
+			padding-top: 200px;}

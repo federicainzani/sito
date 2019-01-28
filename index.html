@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>federica</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Space+Mono" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+	<script>
+
+	$(function(){
+
+		$(window).load(function(){
+
+			$(".slider").mCustomScrollbar({
+				horizontalScroll:true,
+				scrollInertia:1100,
+
+				advanced:{
+					autoExpandHorizontalScroll:true
+				},
+
+			});
+
+			/* navigation */
+			$(".menu a").click(function(){
+
+				var myid= $(this).attr("href");
+
+				$(".menu a").removeClass('selected');
+				$(this).addClass('selected');
+
+				$(".slider").mCustomScrollbar("scrollTo","" + myid + "");
+
+			});
+
+			$(".avanti a").click(function(){
+	var myid= $(this).attr("href");
+	$(".slider").mCustomScrollbar("scrollTo","" + myid + "");
+});
+
+		});
+
+
+
+	})(jQuery);
+
+	</script>
+
+	<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/stile.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+	<div id="header">
+    <!--	<h1><a href="#" id="logo">federica</a></h1> -->
+        <div class="menu">
+        	<span class="vocemenu"><a href="#page-1" class="selected">home</a></span>
+            <span class="vocemenu"><a href="#page-2">about walls</a></span>
+            <span class="vocemenu"><a href="#page-3">madesimo</a></span>
+            <span class="vocemenu"><a href="#page-4">photos</a></span>
+            <span class="vocemenu"><a href="#page-5">contacts</a></span>
+
+        </div>
+    </div>
+
+	<div id="container">
+        <div class="slider content">
+            <div class="my_container">
+
+<!-- federica-->
+				<div class="line-element" id="page-1">
+                    <div class="cont-page">
+                    	<img src="img/pirla.jpg" class="pirla" />
+                        <span class="titlef">federica</span>
+                        <span class="textf">Questa pagina contiene un immagine e del testo.</span>
+												<span class="avanti"><a href="#page-2">&raquo;</a></span>
+                    </div>
+				</div>
+
+<!-- about walls -->
+                <div class="line-element" id="page-2">
+                    <div class="cont-page">
+                    	<span class="titleaw">about walls</span>
+                    	<span class="textaw">Questa è una struttura a navigazione orizzontale.<br/> Puoi scorrere le pagine cliccando le voci del menù o utlizzando lo scroll del mouse.<br/>
+                        La struttura può essere modificata facilmente aggiungendo pagine e funziona con javascript disabilitato.</span>
+                    	<img src="img/aw1.jpg" class="aw1" />
+											<img src="img/aw2.jpg" class="aw2" />
+
+											<span class="avanti"><a href="#page-3">&raquo;</a></span>
+					</div>
+				</div>
+
+				<!-- lo scopo del progetto era mostrare le barriere che l'uomo ha costruito per ostacolare se stesso e gli altri,
+				partendo da una concezione di muro strettamente fisica fino ad estendersi ad un'immagine di barriera più ampia: dal
+				muro emblematico che fu quello di Berlino si arriva al muro psicologico e paralizzante tracciato dai Pink Floyd, attraversando
+				le parole di Anna Frank e gli ostacoli sociali come le leggi razziali.
+				Libro d'arte realizzato per il laboratorio di Fondamenti
+				del Progetto dal titolo "About walls".
+				Professori: Anna Steiner, Paolo Accanti.
+				Facoltà di Design della Comunicazione presso il Politecnico di Milano.-->
+
+
+<!-- madesimo -->
+                <div class="line-element" id="page-3">
+                    <div class="cont-page">
+                    	<img src="img/brooklyn.jpg" class="cop" />
+                        <span class="titlem">madesimo</span>
+                        <span class="textm">Questa pagina contiene un immagine e del testo.</span>
+												<span class="avanti"><a href="#page-4">&raquo;</a></span>
+                    </div>
+                </div>
+<!-- photos-->
+                <div class="line-element" id="page-4">
+                 	<div class="cont-page">
+                    	<img src="img/newbedford.jpg" class="cop" />
+                        <span class="titlep">photos</span>
+                        <span class="textp">Questa pagina contiene un immagine e del testo.</span>
+												<span class="avanti"><a href="#page-5">&raquo;</a></span>
+                	</div>
+                </div>
+
+                <div class="line-element" id="page-5">
+                    <div class="cont-page">
+                    	<span class="titlec">Contacts</h2>
+                        <span class="textc">Questa pagina contiene solo del testo.</span>
+												<span class="avanti"><a href="#page-1">&laquo;</a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+	</div>
+
+</body>
+</html>
