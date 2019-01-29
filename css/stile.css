@@ -307,14 +307,16 @@
 		/*pagina p*/
 
 			.titlep{
-				height: 50px;
-	 			font-family: 'Abril Fatface';
-	 			font-weight:normal;
-	 			font-size: 80px;
-	 			/*padding-top: 140px*/;
-	 			color: #666;
-	 			float:left;
-	 			padding-bottom: 27%;}
+        font-family: 'Abril Fatface';
+        height: 50px;
+        font-weight:normal;
+        font-size: 77px;
+        color: #666;
+        top: 15px;
+        margin-left: 207px;
+        margin-top: 30px;
+      }
+
 
 			.textp {
 				font-family: 'Roboto';
@@ -344,14 +346,30 @@
 				font-size: 80px;
 				/* padding-top: 140px; */
 				color: #666;
-				float:left;
-				padding-bottom: 27%;}
+				padding-bottom: 35%;}
 
 			.textc {
 				font-family: 'Roboto';
 				font-weight: lighter;
 				font-size: 14px;
-				padding-bottom: 25%;
-				float: left;
+				padding-bottom: 21%;
+        margin-left: 8px;
 				color: #dddddd;
 			} */
+
+      .icons {
+        width: 25px;
+        height: auto;
+        background-color: rgb(255,255,255);
+        border-radius: 50%;
+      }
+
+      .icons:hover {
+        animation: full 0.5s forwards ease-in;
+      }
+
+      @keyframes full {
+        from {background-color: rgb(255,255,255);}
+        to {background-color: rgb(201,169,177);}
+
+      }
