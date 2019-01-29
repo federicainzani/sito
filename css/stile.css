@@ -1,4 +1,4 @@
-html,body{
+/* html,body{
 	max-height:100%;}
 
 /*	body{
@@ -151,7 +151,7 @@ html,body{
 
 			/*pagina f*/
 
-			.titlef{
+		.titlef{
  			font-family: 'Abril Fatface';
  			font-weight:normal;
  			font-size: 80px;
@@ -160,6 +160,15 @@ html,body{
  			float:left;
  			padding-bottom: 27%;
 			}
+
+			.titlef:hover {
+		    animation: color 0.5s infinite forwards linear;
+		  }
+
+		  @keyframes color {
+		    from {color: #404040;}
+		    to {color: #f7aa00;}
+		  }
 
 
 		.textf {
@@ -187,7 +196,7 @@ html,body{
  			font-size: 80px;
  			color: #666;
 			top: 15px;
-			margin-left: 32px;
+			margin-left: 47px;
 			margin-bottom: 20px;
 			}
 
@@ -208,11 +217,23 @@ html,body{
 			height:350px;
 			padding-top: 200px;}
 
+		.aw1:hover {
+			transform: scale(1.1);
+			transition: 0.8s;
+		}
+
 		.aw2{
 			float:right;
 			margin-right:20px;
+			padding-right: 20px;
 			height:350px;
 			padding-top: 200px;}
+
+			.aw2:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
 
 			/* pagina m*/
 
@@ -235,6 +256,92 @@ html,body{
 				color: #dddddd;
 			}
 
+			.m1{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m1:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m2{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m2:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m3{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m3:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m4{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m4:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m5{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m5:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m6{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m6:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.m7{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.m7:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+
+
 		/*pagina p*/
 
 			.titlep{
@@ -256,6 +363,84 @@ html,body{
 				color: #dddddd;
 			}
 
+			.p1{
+				float: left;
+				padding-left: 15px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p1:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.p2{
+				float:right;
+				margin-right:20px;
+				padding-right: 20px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p2:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.p3{
+				float:right;
+				margin-right:20px;
+				padding-right: 20px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p3:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.p4{
+				float:right;
+				margin-right:20px;
+				padding-right: 20px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p4:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.p5{
+				float:right;
+				margin-right:20px;
+				padding-right: 20px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p5:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+			.p6{
+				float:right;
+				margin-right:20px;
+				padding-right: 20px;
+				height:200px;
+				padding-top: 200px;
+			}
+
+			.p6:hover {
+				transform: scale(1.1);
+				transition: 0.8s;
+			}
+
+
 		/*pagina c*/
 
 			.titlec{
@@ -275,4 +460,4 @@ html,body{
 				padding-bottom: 25%;
 				float: left;
 				color: #dddddd;
-			}
+			} */
