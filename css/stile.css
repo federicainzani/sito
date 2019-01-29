@@ -346,7 +346,8 @@
 				font-size: 80px;
 				/* padding-top: 140px; */
 				color: #666;
-				padding-bottom: 35%;}
+				padding-bottom: 35%;
+        margin-left: 55%;}
 
 			.textc {
 				font-family: 'Roboto';
@@ -355,13 +356,15 @@
 				padding-bottom: 21%;
         margin-left: 8px;
 				color: #dddddd;
-			} */
+			}
 
       .icons {
         width: 25px;
         height: auto;
         background-color: rgb(255,255,255);
         border-radius: 50%;
+        margin-bottom: 185%;
+        margin-left: 10px;
       }
 
       .icons:hover {
@@ -370,6 +373,18 @@
 
       @keyframes full {
         from {background-color: rgb(255,255,255);}
-        to {background-color: rgb(201,169,177);}
+        to {background-color: #f7aa00;}
 
+      }
+
+      .mail {
+        font-family: 'Roboto';
+        font-weight: lighter;
+        font-size: 17px;
+        color: #dddddd;
+        margin-bottom: 215%;;
+      }
+
+      .mail:hover {
+        color: #666;
       }
