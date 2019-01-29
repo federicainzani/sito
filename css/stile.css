@@ -32,7 +32,7 @@
 
 		.menu {
 			float:left;
-			list-style-type:none; /*specifica che non ci devono essere punti o linee*/
+			list-style-type:none;
 			padding:0;
 			width:100%;
 			margin-top: -5px;
@@ -53,10 +53,6 @@
 		.menu a:hover{
 			font-weight: bolder;}
 
-		.menu a:active{
-			color: #fff;
-		}
-
 		a {
 			text-decoration: none;
 			color: #666;
@@ -64,8 +60,7 @@
 
 		.selected{
 			font-weight: bold;
-		/*	background: #dddddd;*/
-			color:#dddddd!important;}
+			color:#f7aa00!important;}
 
 		.vocemenu {
 			padding-left: 10px;
@@ -149,7 +144,7 @@
  			/*padding-top: 140px*/;
  			color: #f7aa00;
  			float:left;
- 			padding-bottom: 27%;
+ 			margin-bottom: 27%;
 			}
 
 			.titlef:hover {
@@ -166,10 +161,16 @@
 			font-family: 'Roboto';
 			font-weight: lighter;
 			font-size: 14px;
-			padding-bottom: 25%;
+			padding-bottom: 22%;
 			float: left;
-			color: #dddddd;
+			color: #b5b5b5;
 			}
+
+    .beck{
+      font-size: 12px;
+      font-style: italic;
+      padding-top: 5px;
+    }
 
 		.pirla{
 			float:right;
@@ -185,7 +186,7 @@
 			height: 50px;
  			font-weight:normal;
  			font-size: 77px;
- 			color: #666;
+ 			color: #666666;
 			top: 15px;
 			margin-left: 305px;
 			margin-bottom: 20px;
@@ -198,7 +199,7 @@
 			margin-bottom: 39%;
 			margin-left: 57px;
 			float: left;
-			color: #dddddd;
+			color: #cecece;
 			z-index: -1;
 			}
 
@@ -210,7 +211,7 @@
 			margin-bottom: 39%;
 			margin-left: 552px;
 			float: right;
-			color: #dddddd;
+			color: #cecece;
 			z-index: -1;
 			}
 
@@ -218,7 +219,7 @@
 			float: left;
 			padding-left: 15px;
 			height:350px;
-			padding-top: 200px;}
+			margin-top: 200px;}
 
 		.aw1:hover {
 			transform: scale(1.1);
@@ -230,7 +231,7 @@
 			margin-right:20px;
 			padding-right: 20px;
 			height:350px;
-			padding-top: 200px;}
+			margin-top: 200px;}
 
 			.aw2:hover {
 				transform: scale(1.1);
@@ -246,7 +247,7 @@
 	 			font-weight:normal;
 	 			font-size: 88px;
 	 			/*padding-top: 140px*/;
-	 			color: #666;
+	 			color: #666666;
 	 			float:left;
 	 			padding-bottom: 50px;
         padding-left: 32px;}
@@ -261,17 +262,6 @@
 	 			float:right;
 	 			padding-bottom: 10px;
         padding-left: 470px;}
-
-
-
-			/*.textm {
-				font-family: 'Roboto';
-				font-weight: lighter;
-				font-size: 14px;
-				float: left;
-				padding-bottom: 25%;
-				color: #dddddd;
-			}*/
 
 
 			.m1{
@@ -302,12 +292,11 @@
         height: 50px;
         font-weight:normal;
         font-size: 77px;
-        color: #666;
+        color: #666666;
         top: 15px;
         margin-left: 207px;
         margin-top: 30px;
       }
-
 
 			.textp {
 				font-family: 'Roboto';
@@ -337,17 +326,8 @@
 				font-size: 80px;
 				/* padding-top: 140px; */
 				color: #666;
-				padding-bottom: 35%;
+				margin-bottom: 35%;
         margin-left: 55%;}
-
-			.textc {
-				font-family: 'Roboto';
-				font-weight: lighter;
-				font-size: 14px;
-				padding-bottom: 21%;
-        margin-left: 8px;
-				color: #dddddd;
-			}
 
       .icons {
         width: 25px;
@@ -369,6 +349,7 @@
       }
 
       .contatti {
+        color: #dddddd;
         margin-left:770px;
         margin-top: 250px;
       }
@@ -383,5 +364,5 @@
       }
 
       .mail:hover {
-        color: #666;
+        color: #666666;
       }
