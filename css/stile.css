@@ -377,12 +377,18 @@
 
       }
 
+      .contatti {
+        margin-left:770px;
+        margin-top: 250px;
+      }
+
       .mail {
         font-family: 'Roboto';
         font-weight: lighter;
         font-size: 17px;
         color: #dddddd;
-        margin-bottom: 215%;;
+        padding-top: 20px;
+        margin-left: -125px;
       }
 
       .mail:hover {
