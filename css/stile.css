@@ -271,7 +271,8 @@
 	 			color: #666666;
 	 			float:left;
 	 			padding-bottom: 50px;
-        padding-left: 32px;}
+        padding-left: 32px;
+      }
 
       .titlem:hover {
   	    color: #202a3e;
@@ -320,7 +321,7 @@
         font-size: 77px;
         color: #666666;
         top: 15px;
-        margin-left: 207px;
+        margin-left: 350px;
         margin-top: 30px;
       }
 
