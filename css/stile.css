@@ -216,31 +216,35 @@
 		.textaw {
 			font-family: 'Roboto';
 			font-weight: lighter;
-			font-size: 14px;
+			font-size: 15px;
 			margin-bottom: 39%;
-			margin-left: 37px;
+			margin-left: 20px;
 			float: left;
 			color: #cecece;
 			z-index: -1;
-			}
+			text-align:justify;
+			width: 476px;
+		}
 
 
 		.textaw2 {
 			font-family: 'Roboto';
 			font-weight: lighter;
-			font-size: 14px;
+			font-size: 15px;
 			margin-bottom: 39%;
-			margin-left: 532px;
+			margin-left: 515px;
 			float: right;
 			color: #cecece;
 			z-index: -1;
-			}
+			width: 485px;
+		}
 
 		.aw1{
 			float: left;
 			padding-left: 0px;
-			height:350px;
-			margin-top: 200px;}
+			width: 478px;
+			margin-top: 200px;
+    }
 
 		.aw1:hover {
 			transform: scale(1.1);
@@ -251,8 +255,9 @@
 			float:right;
 			margin-right: 20px;
 			padding-right: 40px;
-			height:350px;
-			margin-top: 200px;}
+			width: 478px;
+			margin-top: 200px;
+		}
 
 			.aw2:hover {
 				transform: scale(1.1);
@@ -271,8 +276,8 @@
 	 			color: #666666;
 	 			float:left;
 	 			padding-bottom: 50px;
-        padding-left: 32px;
-      }
+				padding-left: 32px;
+      	}
 
       .titlem:hover {
   	    color: #202a3e;
