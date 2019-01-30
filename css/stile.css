@@ -147,17 +147,17 @@
  			margin-bottom: 27%;
 			}
 
-			.titlef:hover {
-		    animation: color 0.7s  forwards linear;
-		  }
+		.titlef:hover {
+	    animation: color 0.7s  forwards linear;
+	  }
 
-		  @keyframes color {
-		    from {color: #f7aa00;}
-		    to {color: #f45611;}
-		  }
+	  @keyframes color {
+	    from {color: #f7aa00;}
+	    to {color: #f45611;}
+	  }
 
 
-		.textf {
+    .textf {
 			font-family: 'Roboto';
 			font-weight: lighter;
 			font-size: 14px;
@@ -165,6 +165,22 @@
 			float: left;
 			color: #b5b5b5;
 			}
+
+    .text3001 {
+			font-family: 'Roboto';
+			font-weight: lighter;
+			font-size: 14px;
+			padding-bottom: 15%;
+			float: left;
+			}
+
+    .text3001 a{
+      color: #dddddd;
+    }
+
+    .text3001 a:hover {
+      color: #cecece;
+    }
 
     .beck{
       font-size: 12px;
@@ -191,6 +207,11 @@
 			margin-left: 305px;
 			margin-bottom: 20px;
 			}
+
+    .titleaw:hover {
+	    color: #3e3e3e;
+      transition: 0.7s;
+	  }
 
 		.textaw {
 			font-family: 'Roboto';
@@ -252,6 +273,11 @@
 	 			padding-bottom: 50px;
         padding-left: 32px;}
 
+      .titlem:hover {
+  	    color: #202a3e;
+        transition: 0.7s;
+  	  }
+
       .textm{
 				height: 50px;
 	 			font-family: 'Roboto';
@@ -298,6 +324,11 @@
         margin-top: 30px;
       }
 
+      .titlep:hover {
+  	    color: #096338;
+        transition: 0.7s;
+  	  }
+
 			.textp {
 				font-family: 'Roboto';
 				font-weight: lighter;
@@ -325,9 +356,15 @@
 				font-weight:normal;
 				font-size: 80px;
 				/* padding-top: 140px; */
-				color: #666;
+				color: #af0000;
 				margin-bottom: 35%;
         margin-left: 55%;}
+
+      .titlec:hover {
+  	    color: #5b0000;
+        transition: 0.7s;
+  	  }
+
 
       .icons {
         width: 25px;
@@ -344,7 +381,7 @@
 
       @keyframes full {
         from {background-color: rgb(255,255,255);}
-        to {background-color: #f7aa00;}
+        to {background-color: #af0000;}
 
       }
 
@@ -363,6 +400,10 @@
         margin-left: -125px;
       }
 
-      .mail:hover {
+      .mail a{
+        color: #cecece ;
+      }
+
+      .mail a:hover {
         color: #666666;
       }
