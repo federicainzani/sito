@@ -204,7 +204,7 @@
  			font-size: 77px;
  			color: #666666;
 			top: 15px;
-			margin-left: 305px;
+			margin-left: 285px;
 			margin-bottom: 20px;
 			}
 
@@ -218,7 +218,7 @@
 			font-weight: lighter;
 			font-size: 14px;
 			margin-bottom: 39%;
-			margin-left: 57px;
+			margin-left: 37px;
 			float: left;
 			color: #cecece;
 			z-index: -1;
@@ -230,7 +230,7 @@
 			font-weight: lighter;
 			font-size: 14px;
 			margin-bottom: 39%;
-			margin-left: 552px;
+			margin-left: 532px;
 			float: right;
 			color: #cecece;
 			z-index: -1;
@@ -238,7 +238,7 @@
 
 		.aw1{
 			float: left;
-			padding-left: 15px;
+			padding-left: 0px;
 			height:350px;
 			margin-top: 200px;}
 
@@ -249,8 +249,8 @@
 
 		.aw2{
 			float:right;
-			margin-right:20px;
-			padding-right: 20px;
+			margin-right: 20px;
+			padding-right: 40px;
 			height:350px;
 			margin-top: 200px;}
 
